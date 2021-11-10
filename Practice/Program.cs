@@ -11,11 +11,13 @@ namespace Practice
 
     // In most cases, according to a user on stackoverflow, an assembly corresponds and is equal to one file on the disk. "In a multifile assembly there would still be only one assembly manifest in a DLL or EXE and the MSIL code in multiple netmodule files." I will take this part with a grain of salt for now.
 
-    // A class is essentially a container in which we can store code. Inside of a class, we can write all the code for our program and be able to execute it.
+    // A class is essentially a container in which we can store code. Inside of a class, we can write all the code for our program and be able to execute it. More to come about that later as well.
     internal class Program
     {
+        // This is a method or function, as we're used to. Another container in which we can put code for our program to run.
         static void Main(string[] args)
         {
+            // Code can go here, for the line 17 comment.
         }
     }
 }
