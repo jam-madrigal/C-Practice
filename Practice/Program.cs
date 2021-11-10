@@ -14,10 +14,10 @@ namespace Practice
     // A class is essentially a container in which we can store code. Inside of a class, we can write all the code for our program and be able to execute it. More to come about that later as well.
     internal class Program
     {
-        // This is a method or function, as we're used to. Another container in which we can put code for our program to run.
+        // This is the main method or function, as we're used to. Another container in which we can put code for our program to run.
         static void Main(string[] args)
         {
-            // Code can go here, for the line 17 comment.
+            // Code can go here, for the line 17 comment. Any code we're going to write inside of our .cs (C#) file we want to put here, inside this main block
         }
     }
 }
