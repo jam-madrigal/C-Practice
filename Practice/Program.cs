@@ -22,10 +22,9 @@ namespace Practice
             // Note about strings: single quotes can only encapsulate a single character. Double quotes are for multiple, in C#. In this case, use the unicode character for a quotation mark and concatenate.
             Console.WriteLine("Hello I am a powerful mage. " +'\u0022' + "Hello world" + '\u0022' + " is boring and expected.");
 
-            // If we run this code as is, the console window will open and immediately close. To remedy that, we need to add the following:
+            // If we run this code as is, the console window will open and immediately close. To remedy that, we need to add the following code which keeps the console window open until we press enter.
             Console.ReadLine();
 
-            // This keeps the console window open until we enter a line of text.
         }
     }
 }
