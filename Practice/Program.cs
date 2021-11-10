@@ -18,7 +18,8 @@ namespace Practice
         static void Main(string[] args)
         {
             // Code can go here, for the line 17 comment. Any code we're going to write inside of our .cs (C#) file we want to put here, inside this main block
-            // Note about strings: single quotes can only encapsulate a single character. Double quotes are for multiple, in C#. Use two double quotes in a row to have quotes inside the string, or use the ASCII or unicode character for a quotation mark and concatenate.
+
+            // Note about strings: single quotes can only encapsulate a single character. Double quotes are for multiple, in C#. In this case, use the unicode character for a quotation mark and concatenate.
             Console.WriteLine("Hello I am a powerful mage. " +'\u0022' + "Hello world" + '\u0022' + " is boring and expected.");
         }
     }
