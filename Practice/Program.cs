@@ -60,6 +60,8 @@ namespace Practice
             Console.WriteLine(testSpell.IndexOf("Missile"));
             // Return one part of a string with SubString(), specifying the index at which to start, in this case return "Missile"
             Console.WriteLine(testSpell.Substring(6));
+            // Return the first 4 characters of "Missile", a second argument can be passed through to specify how many characters
+            Console.WriteLine(testSpell.Substring(6, 4));
 
             // If we run this code as is, the console window will open and immediately close. To remedy that, we need to add the following code which keeps the console window open until we press enter.
             Console.ReadLine();
