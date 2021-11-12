@@ -58,6 +58,8 @@ namespace Practice
             Console.WriteLine(testSpell[0]);
             // Return at which index the parameter starts. It will return -1 if the character does not exist in the string.
             Console.WriteLine(testSpell.IndexOf("Missile"));
+            // Return one part of a string with SubString(), specifying the index at which to start, in this case return "Missile"
+            Console.WriteLine(testSpell.Substring(6));
 
             // If we run this code as is, the console window will open and immediately close. To remedy that, we need to add the following code which keeps the console window open until we press enter.
             Console.ReadLine();
