@@ -45,6 +45,8 @@ namespace Practice
 
             //A string can be split into a new line with escape characters, like so
             Console.WriteLine("\nMagic\nMissile");
+            // A literal quotation mark can also be included in a string by being preceded by \
+            Console.WriteLine("Magic\"Missile");
 
             // If we run this code as is, the console window will open and immediately close. To remedy that, we need to add the following code which keeps the console window open until we press enter.
             Console.ReadLine();
