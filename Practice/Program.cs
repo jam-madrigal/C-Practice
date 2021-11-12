@@ -54,7 +54,8 @@ namespace Practice
             Console.WriteLine(testSpell.ToUpper());
             // Check if a phrase contains something and return a boolean
             Console.WriteLine(testSpell.Contains("Magic"));
-
+            // Return the first character of the string, business as usual with indexes 1 would return a, etc.
+            Console.WriteLine(testSpell[0]);
 
             // If we run this code as is, the console window will open and immediately close. To remedy that, we need to add the following code which keeps the console window open until we press enter.
             Console.ReadLine();
