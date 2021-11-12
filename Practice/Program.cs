@@ -30,10 +30,18 @@ namespace Practice
             Console.WriteLine("___/____|___");
 
             // Writing a story to demonstrate how we can make variables in C#
-            Console.WriteLine("There once was a witch named Miseria");
-            Console.WriteLine("She had been practicing magic all 28 years of her life");
-            Console.WriteLine("She was told she could excel at Cryogenic magic");
-            Console.WriteLine("But, she really enjoyed exploring all types of magic, and didn't want to be restricted to Cryogenic");
+            // To make a variable in C#, first we have to specify the type of data we want to store, in this case a string for our story because we need text
+            string witchName = "Miseria";
+            // Creating an integer variable, since it will be used for the age of our character
+            int witchAge = 28;
+            // This could also be written by declaring without a value and assigning one later, just like in JS, such as int witchAge; and then below it witchAge = 28;
+            string magicTalent = "Cryogenic";
+
+            // Use variables in our story instead of just hard coding text
+            Console.WriteLine("There once was a witch named " + witchName);
+            Console.WriteLine("She had been practicing magic all " + witchAge + " years of her life");
+            Console.WriteLine("She was told she could excel at " + magicTalent + " magic");
+            Console.WriteLine("But, she really enjoyed exploring all types of magic, and didn't want to be restricted to " + magicTalent + ".");
 
             // If we run this code as is, the console window will open and immediately close. To remedy that, we need to add the following code which keeps the console window open until we press enter.
             Console.ReadLine();
