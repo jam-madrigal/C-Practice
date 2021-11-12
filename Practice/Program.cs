@@ -29,6 +29,12 @@ namespace Practice
             Console.WriteLine("    /   |");
             Console.WriteLine("___/____|___");
 
+            // Writing a story to demonstrate how we can make variables in C#
+            Console.WriteLine("There once was a witch named Miseria");
+            Console.WriteLine("She had been practicing magic all 28 years of her life");
+            Console.WriteLine("She was told she could excel at Cryogenic magic");
+            Console.WriteLine("But, she really enjoyed exploring all types of magic, and didn't want to be restricted to Cryogenic");
+
             // If we run this code as is, the console window will open and immediately close. To remedy that, we need to add the following code which keeps the console window open until we press enter.
             Console.ReadLine();
 
