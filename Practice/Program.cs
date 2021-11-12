@@ -34,7 +34,7 @@ namespace Practice
             string witchName = "Miseria";
             // Creating an integer variable, since it will be used for the age of our character
             int witchAge = 28;
-            // This could also be written by declaring without a value and assigning one later, just like in JS, such as int witchAge; and then below it witchAge = 28;
+            // This could also be written by declaring without a value and assigning one later, just like in JS, such as int witchAge; and then below it witchAge = 28; Of course just like we're used to already, we can change the value of any of these variables at any time.
             string magicTalent = "Cryogenic";
 
             // Use variables in our story instead of just hard coding text
