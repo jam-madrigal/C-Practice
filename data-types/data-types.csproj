@@ -7,7 +7,7 @@
     <ProjectGuid>{5EECE1A1-70BF-469E-B820-199AAE13C285}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>data_types</RootNamespace>
-    <AssemblyName>data_types</AssemblyName>
+    <AssemblyName>data-types</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

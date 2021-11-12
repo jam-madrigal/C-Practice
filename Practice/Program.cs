@@ -43,6 +43,9 @@ namespace Practice
             Console.WriteLine("She was told she could excel at " + magicTalent + " magic");
             Console.WriteLine("But, she really enjoyed exploring all types of magic, and didn't want to be restricted to " + magicTalent + ".");
 
+            //A string can be split into a new line with escape characters, like so
+            Console.WriteLine("\nMagic\nMissile");
+
             // If we run this code as is, the console window will open and immediately close. To remedy that, we need to add the following code which keeps the console window open until we press enter.
             Console.ReadLine();
 
