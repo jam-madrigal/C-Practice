@@ -56,6 +56,8 @@ namespace Practice
             Console.WriteLine(testSpell.Contains("Magic"));
             // Return the first character of the string, business as usual with indexes 1 would return a, etc.
             Console.WriteLine(testSpell[0]);
+            // Return at which index the parameter starts
+            Console.WriteLine(testSpell.IndexOf("Missile"));
 
             // If we run this code as is, the console window will open and immediately close. To remedy that, we need to add the following code which keeps the console window open until we press enter.
             Console.ReadLine();
