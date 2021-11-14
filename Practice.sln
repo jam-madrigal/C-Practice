@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice", "Practice\Practi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data-types", "data-types\data-types.csproj", "{5EECE1A1-70BF-469E-B820-199AAE13C285}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "getting-user-input", "getting-user-input\getting-user-input.csproj", "{16209E15-91B8-4809-95CA-0F655438C9BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5EECE1A1-70BF-469E-B820-199AAE13C285}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EECE1A1-70BF-469E-B820-199AAE13C285}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EECE1A1-70BF-469E-B820-199AAE13C285}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16209E15-91B8-4809-95CA-0F655438C9BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16209E15-91B8-4809-95CA-0F655438C9BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16209E15-91B8-4809-95CA-0F655438C9BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16209E15-91B8-4809-95CA-0F655438C9BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

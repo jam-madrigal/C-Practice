@@ -7,7 +7,7 @@
     <ProjectGuid>{16209E15-91B8-4809-95CA-0F655438C9BA}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>getting_user_input</RootNamespace>
-    <AssemblyName>getting_user_input</AssemblyName>
+    <AssemblyName>getting-user-input</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
