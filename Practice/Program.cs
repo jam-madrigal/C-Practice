@@ -63,6 +63,19 @@ namespace Practice
             // Return the first 4 characters of "Missile", a second argument can be passed through to specify how many characters
             Console.WriteLine(testSpell.Substring(6, 4));
 
+            // ****** Some math methods ******
+
+            //Math.Abs(); stands for absolute value and takes in a number as a parameter and returns the absolute value
+            Console.WriteLine(Math.Abs(-37));
+            // Math.Pow(); takes in two numbers and returns the power, based on the second number, of the first number
+            Console.WriteLine(Math.Pow(3, 2));
+            // Math.Sqrt(); to find the square root
+            Console.WriteLine(Math.Sqrt(36));
+            // Math.Max(); returns the bigger number and Math.Min(); returns the smaller number
+            Console.WriteLine(Math.Max(4, 90));
+            // Math.Round(); will round a number up or down
+            Console.WriteLine(Math.Round(4.3));
+
             // If we run this code as is, the console window will open and immediately close. To remedy that, we need to add the following code which keeps the console window open until we press enter.
             Console.ReadLine();
 
