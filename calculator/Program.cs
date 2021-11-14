@@ -16,10 +16,18 @@ namespace calculator
             Console.WriteLine(num + 6);
 
             // Wait for a user to enter two numbers and store them in a variable. It will return an error if we use Console.ReadLine() alone because it will try to store a string as a number
-            Console.Write("Enter a number: ");
+
+            /* Console.Write("Enter a number: ");
             int num1 = Convert.ToInt32(Console.ReadLine());
             Console.Write("Enter another number: ");
-            int num2 = Convert.ToInt32(Console.ReadLine());
+            int num2 = Convert.ToInt32(Console.ReadLine()); */
+
+            // The flaw with this, is that it cannot handle decimals. Instead, we can change the int declarations to double declarations and change .ToInt32 to ToDouble
+
+            Console.Write("Enter a number: ");
+            double num1 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter another number: ");
+            double num2 = Convert.ToDouble(Console.ReadLine());
 
             // Return the sum on a new line
             Console.WriteLine(num1 + num2);
