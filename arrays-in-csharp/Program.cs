@@ -17,6 +17,11 @@ namespace arrays_in_csharp
             // How to access an index of an array in C#, in this case the third index or 37
             Console.WriteLine(luckyNumbers[3]);
 
+            // How to change the value of an index, changing 52 to 14 here
+            Console.WriteLine(luckyNumbers[4]);
+            luckyNumbers[4] = 14;
+            Console.WriteLine(luckyNumbers[4]);
+
 
             Console.ReadLine();
         }
