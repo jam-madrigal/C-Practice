@@ -10,8 +10,8 @@ namespace methods_in_c_sharp
     {
         static void Main(string[] args)
         {
-            // Create a method to say hi to the user and call it, this has to be done outside of the static void Main() method. If the method requires a parameter, it will return an error if no string is passed through.
-            SayHi("Meta");
+            // Create a method to say hi to the user and call it, this has to be done outside of the static void Main() method. If the method requires a parameter, it will return an error if no paremeters are passed through.
+            SayHi("Meta", 28);
             Console.ReadLine();
         }
 
