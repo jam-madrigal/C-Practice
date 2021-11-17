@@ -22,11 +22,21 @@ namespace better_calculator
             string op = Console.ReadLine();
 
             // Use if statements to return a result as specified by the user
+            if (op == "+")
+            {
+                Console.Write(num1 + num2);
+            } else if (op == "-")
+            {
+                Console.Write(num1 - num2);
+            } else if (op == "*")
+            {
+                Console.Write(num1 * num2);
+            } else if (op == "/")
+            {
+                Console.Write(num1 / num2);
+            }
 
-
-
-
-
+            Console.ReadLine();
         }
     }
 }
