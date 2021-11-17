@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arrays-in-csharp", "arrays-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "methods-in-c-sharp", "methods-in-c-sharp\methods-in-c-sharp.csproj", "{FB980D4E-5206-4914-9963-52ABEC8C4115}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "return-statements", "return-statements\return-statements.csproj", "{021BB133-5E01-4928-94DE-74989A451BD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{FB980D4E-5206-4914-9963-52ABEC8C4115}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB980D4E-5206-4914-9963-52ABEC8C4115}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB980D4E-5206-4914-9963-52ABEC8C4115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{021BB133-5E01-4928-94DE-74989A451BD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{021BB133-5E01-4928-94DE-74989A451BD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{021BB133-5E01-4928-94DE-74989A451BD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{021BB133-5E01-4928-94DE-74989A451BD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

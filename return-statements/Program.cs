@@ -11,7 +11,8 @@ namespace return_statements
         static void Main(string[] args)
         {
             // Calling our cube function
-            cube(3);
+            // Calling the method alone
+            Console.WriteLine(cube(3));
 
             Console.ReadLine();
         }
