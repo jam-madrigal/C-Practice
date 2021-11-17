@@ -11,8 +11,12 @@ namespace return_statements
         static void Main(string[] args)
         {
             // Calling our cube function
-            // Calling the method alone
+            // Calling the method alone will not read out the return, we need to have it in Console.WriteLine();
             Console.WriteLine(cube(3));
+
+            // We can also call it using a variable
+            int cubedNumber = cube(3);
+            Console.WriteLine(cubedNumber);
 
             Console.ReadLine();
         }
