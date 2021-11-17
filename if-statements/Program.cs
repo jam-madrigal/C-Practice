@@ -19,12 +19,12 @@ namespace if_statements
             // Check if they are magical and a witch
             if (isMagical && isWitch)
             {
-                Console.WriteLine("You are a magical witch");
+                Console.WriteLine("You are a magical witch.");
             }
             // Check if they are magical, but not a witch, using a negation operator
             else if (isMagical && !isWitch) 
             {
-                Console.WriteLine("You are magical, but not a witch");
+                Console.WriteLine("You are magical, but not a witch.");
             } 
             else if (!isMagical && isWitch)
             {
