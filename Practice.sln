@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if-statements", "if-stateme
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "better-calculator", "better-calculator\better-calculator.csproj", "{4DF4A667-7388-47A2-815A-6EC7C0296DE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "switch-statements", "switch-statements\switch-statements.csproj", "{172EDBF1-4405-47DA-97A4-908EA409B176}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{4DF4A667-7388-47A2-815A-6EC7C0296DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DF4A667-7388-47A2-815A-6EC7C0296DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DF4A667-7388-47A2-815A-6EC7C0296DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{172EDBF1-4405-47DA-97A4-908EA409B176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172EDBF1-4405-47DA-97A4-908EA409B176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172EDBF1-4405-47DA-97A4-908EA409B176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172EDBF1-4405-47DA-97A4-908EA409B176}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
