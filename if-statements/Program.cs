@@ -38,5 +38,22 @@ namespace if_statements
 
             Console.ReadLine();
         }
+        // Making another method that will compare numbers, its return type is an integer and it takes in two integers as parameters
+        static int GetMax(int num1, int num2)
+        {
+            // Declaring an integer result that will be our output later
+            int result;
+
+            // Return the integer which is greater, using if statements to compare
+            if (num1 > num2)
+            {
+                result = num1;
+            } else
+            {
+                result = num2;
+            }
+
+            return result;
+        }
     }
 }
