@@ -47,10 +47,10 @@ namespace if_statements
             int result;
 
             // Return the integer which is greater, using if statements to compare
-            if (num1 > num2 && num1 > num3)
+            if (num1 >= num2 && num1 >= num3)
             {
                 result = num1;
-            } else if (num2 > num1 && num2 > num3)
+            } else if (num2 >= num1 && num2 >= num3)
             {
                 result = num2;
             }
