@@ -23,11 +23,6 @@ namespace switch_statements
         {
             // Declare the result we will eventually assign in our switch statement
             string dayName;
-            // Check if the number is less than 0 or greater than 6, and if so return an error
-            if (dayNum < 0 || dayNum > 6)
-            {
-                return ("Invalid number. Enter a number from 0-6.");
-            }
 
             // If input is valid, use a switch statement to decide which day of the week to return using the dayNum as our input
             switch (dayNum)
@@ -52,6 +47,9 @@ namespace switch_statements
                     break;
                 case 6:
                     dayName = "Saturday";
+                    break;
+                default:
+                    dayName = "Invalid day number. Enter a number from 0-6";
                     break;
             }
 
