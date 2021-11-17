@@ -18,8 +18,9 @@ namespace better_calculator
 
             // Prompt the user for an operator and store it in a variable
             Console.Write("Enter Operator: ");
-
             string op = Console.ReadLine();
+
+            // Prompt the user for the second number
             Console.Write("Enter a number: ");
             double num2 = Convert.ToDouble(Console.ReadLine());
 
