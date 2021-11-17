@@ -36,6 +36,8 @@ namespace if_statements
                 Console.WriteLine("You are not magical or a magical witch.");
             }
 
+            // Testing out GetMax() method
+            Console.WriteLine(GetMax(13, 37));
             Console.ReadLine();
         }
         // Making another method that will compare numbers, its return type is an integer and it takes in two integers as parameters
