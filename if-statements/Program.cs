@@ -10,6 +10,16 @@ namespace if_statements
     {
         static void Main(string[] args)
         {
+            // Make a variable to check our if statement
+            bool isMagical = true;
+
+            // Create our condition, and the code that will run if it is met, if it is false, it will not run. Business as usual.
+            if (isMagical)
+            {
+                Console.WriteLine("You are magical");
+            }
+
+            Console.ReadLine();
         }
     }
 }
