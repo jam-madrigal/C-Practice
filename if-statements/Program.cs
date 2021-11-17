@@ -21,7 +21,7 @@ namespace if_statements
                 Console.WriteLine("You are a magical witch");
             } else
             {
-                Console.WriteLine("You are not a magical witch");
+                Console.WriteLine("You are not a magical witch, or at least not magical or a witch. One of the two, at least.");
             }
 
             Console.ReadLine();
