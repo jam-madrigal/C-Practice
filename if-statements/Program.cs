@@ -17,6 +17,9 @@ namespace if_statements
             if (isMagical)
             {
                 Console.WriteLine("You are magical");
+            } else
+            {
+                Console.WriteLine("You are not magical");
             }
 
             Console.ReadLine();
