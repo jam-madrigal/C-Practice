@@ -40,6 +40,11 @@ namespace better_calculator
             {
                 Console.Write(num1 / num2);
             }
+            else
+            {
+                Console.WriteLine("Invalid operator.");
+            }
+
 
             Console.ReadLine();
         }
