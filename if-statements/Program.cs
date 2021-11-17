@@ -37,22 +37,26 @@ namespace if_statements
             }
 
             // Testing out GetMax() method
-            Console.WriteLine(GetMax(13, 37));
+            Console.WriteLine(GetMax(13, 37, 24));
             Console.ReadLine();
         }
-        // Making another method that will compare numbers, its return type is an integer and it takes in two integers as parameters
-        static int GetMax(int num1, int num2)
+        // Making another method that will compare numbers, its return type is an integer and it takes in two integers as parameters, then make it compare 3 numbers
+        static int GetMax(int num1, int num2, int num3)
         {
             // Declaring an integer result that will be our output later
             int result;
 
             // Return the integer which is greater, using if statements to compare
-            if (num1 > num2)
+            if (num1 > num2 && num1 > num3)
             {
                 result = num1;
-            } else
+            } else if (num2 > num1 && num2 > num3)
             {
                 result = num2;
+            }
+            else
+            {
+                result = num3;
             }
 
             return result;
