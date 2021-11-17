@@ -12,14 +12,16 @@ namespace if_statements
         {
             // Make a variable to check our if statement
             bool isMagical = true;
+            // Add another variable to check 
+            bool isWitch = true;
 
             // Create our condition, and the code that will run if it is met, if it is false, it will not run. Business as usual.
-            if (isMagical)
+            if (isMagical && isWitch)
             {
-                Console.WriteLine("You are magical");
+                Console.WriteLine("You are a magical witch");
             } else
             {
-                Console.WriteLine("You are not magical");
+                Console.WriteLine("You are not a magical witch");
             }
 
             Console.ReadLine();
