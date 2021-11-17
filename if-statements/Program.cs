@@ -16,12 +16,24 @@ namespace if_statements
             bool isWitch = true;
 
             // Create our condition, and the code that will run if it is met, if it is false, it will not run. Business as usual.
+            // Check if they are magical and a witch
             if (isMagical && isWitch)
             {
                 Console.WriteLine("You are a magical witch");
-            } else
+            }
+            // Check if they are magical, but not a witch, using a negation operator
+            else if (isMagical && !isWitch) 
             {
-                Console.WriteLine("You are not a magical witch, or at least not magical or a witch. One of the two, at least.");
+                Console.WriteLine("You are magical, but not a witch");
+            } 
+            else if (!isMagical && isWitch)
+            {
+                Console.WriteLine("You are a witch, but not magical. Fancy that.");
+            }
+            // What to return if they are neither magical or a witch
+            else
+            {
+                Console.WriteLine("You are not magical or a magical witch.");
             }
 
             Console.ReadLine();
