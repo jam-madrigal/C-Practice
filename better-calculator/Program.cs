@@ -16,12 +16,12 @@ namespace better_calculator
             Console.Write("Enter a number: ");
             double num1 = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("Enter a number: ");
-            double num2 = Convert.ToDouble(Console.ReadLine());
-
             // Prompt the user for an operator and store it in a variable
             Console.Write("Enter Operator: ");
+
             string op = Console.ReadLine();
+            Console.Write("Enter a number: ");
+            double num2 = Convert.ToDouble(Console.ReadLine());
 
             // Use if statements to return a result as specified by the user
             if (op == "+")
