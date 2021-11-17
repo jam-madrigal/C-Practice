@@ -12,7 +12,7 @@ namespace better_calculator
         { // Create a calculator which prompts the user for two numbers and what kind of comparison or operation they want to do
             // Prompt the user to enter a number and store that number in a variable. Remember to convert the response from a string to an integer.
             Console.Write("Enter a number: ")
-            double num1 = Convert.ToInt32(Console.ReadLine());
+            double num1 = Convert.ToDouble(Console.ReadLine());
 
 
 
