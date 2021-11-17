@@ -25,13 +25,16 @@ namespace better_calculator
             if (op == "+")
             {
                 Console.Write(num1 + num2);
-            } else if (op == "-")
+            } 
+            else if (op == "-")
             {
                 Console.Write(num1 - num2);
-            } else if (op == "*")
+            } 
+            else if (op == "*")
             {
                 Console.Write(num1 * num2);
-            } else if (op == "/")
+            } 
+            else if (op == "/")
             {
                 Console.Write(num1 / num2);
             }
