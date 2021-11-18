@@ -12,7 +12,7 @@ namespace guessing_game
         { // Create a guessing game
             // A word will be stored in a variable
             string secretWord = "witch";
-            // Declare a variable to store the user's guess
+            // Declare a variable to store the user's guess. C# will not let us use it undeclared in a while loop so let's just leave it an empty string.
             string userGuess = "";
 
             // Use a loop to check if the user guessed the word guess the word. If they guess incorrectly, loop the question until they guess correctly, then return a message stating they won the game and break out of the loop
