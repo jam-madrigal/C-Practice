@@ -22,6 +22,15 @@ namespace while_loops
                 index++;
             }
 
+            // This can be restructured into a different kind of while loop as well, known as a do while loop. Let's say the index value is never less than or equal to 5, so in the above circumstance, our code in the loop would never run. However, we can run it like so. It will run t he code before it checks the condition. In this example it will at least print the index once, so we are aware of what is happening when it immediately stops.
+            int index2 = 6;
+
+            do
+            {
+                Console.WriteLine("The current index is " + index);
+                index++;
+            } while (index2 <= 5);
+
 
             Console.ReadLine();
         }
