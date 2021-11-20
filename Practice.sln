@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "while-loops", "while-loops\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "guessing-game", "guessing-game\guessing-game.csproj", "{20D6A830-E3E7-4E01-8D7D-2B43EB9CAA2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "For-loops", "For-loops\For-loops.csproj", "{19B5D83B-2471-4FD0-9B1B-4295EDDB8FCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{20D6A830-E3E7-4E01-8D7D-2B43EB9CAA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20D6A830-E3E7-4E01-8D7D-2B43EB9CAA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20D6A830-E3E7-4E01-8D7D-2B43EB9CAA2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19B5D83B-2471-4FD0-9B1B-4295EDDB8FCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B5D83B-2471-4FD0-9B1B-4295EDDB8FCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B5D83B-2471-4FD0-9B1B-4295EDDB8FCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B5D83B-2471-4FD0-9B1B-4295EDDB8FCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

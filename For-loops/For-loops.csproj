@@ -7,7 +7,7 @@
     <ProjectGuid>{19B5D83B-2471-4FD0-9B1B-4295EDDB8FCB}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>For_loops</RootNamespace>
-    <AssemblyName>For_loops</AssemblyName>
+    <AssemblyName>For-loops</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
