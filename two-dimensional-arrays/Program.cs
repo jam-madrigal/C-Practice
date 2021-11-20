@@ -19,6 +19,9 @@ namespace two_dimensional_arrays
             // Access the second index of the second array and return the value of 5. The first number after numberGrid in brackets is the index in the overarching array, and the second is the index within that index element
             Console.WriteLine(numberGrid[1, 1]);
 
+            // Make an array without any data in it, specifying the number of indexes and indexes within the inner arrays. It can be thought of as rows and columns based on the code appearance of the numbersGrid above
+            int[,] numberGrid2 = new int[2, 3];
+
             Console.ReadLine();
         }
     }
