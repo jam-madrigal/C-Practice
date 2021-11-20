@@ -10,7 +10,7 @@ namespace build_an_exponent_method
     {
         static void Main(string[] args)
         { // Build a method which will take in two numbers: A base number and a power number, and take the base number to the power of the power number
-            Console.WriteLine(Exponential(2, 5));
+            Console.WriteLine(Exponential(4, 3));
             Console.ReadLine();
         }
         // Create a function that returns an integer and takes in two integers, base and power  as parameters
