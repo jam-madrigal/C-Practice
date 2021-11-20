@@ -38,6 +38,11 @@ namespace exception_handling
                 Console.WriteLine(e.Message);
 
             }
+            // Any code we put in this finally block is executed no matter what. Even if there is an exception, this will run. It is not always necessary.
+            finally
+            {
+
+            }
 
             Console.ReadLine();
         }
