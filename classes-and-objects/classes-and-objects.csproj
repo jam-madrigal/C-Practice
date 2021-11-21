@@ -7,7 +7,7 @@
     <ProjectGuid>{D770AE12-6800-4437-B26D-D8D1BC2CCBE9}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>classes_and_objects</RootNamespace>
-    <AssemblyName>classes_and_objects</AssemblyName>
+    <AssemblyName>classes-and-objects</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Book.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

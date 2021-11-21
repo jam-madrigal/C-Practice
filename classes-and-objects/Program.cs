@@ -11,6 +11,19 @@ namespace classes_and_objects
         static void Main(string[] args)
         { // Classes/objects can be used to represent things that are more complex than a single data type. They are like a complex data type we can create. Too create a class, right click our project in the solution explorer > Add > new item > class (name it with a capital letter, generally)
 
+            // Here we can create a representation of a book using the Book class which defines the data type of "Book". An object is an instance of a class, and we can use objects to create a book in our main program.
+
+            // Creating a book object, or an instance of the class Book. This is like a variable that is storing a book object.
+            Book book1 = new Book();
+            // Initializing the properties of the book as defined in the class
+            book1.title = "The witch in the woods";
+            book1.author = "Meta";
+            book1.pages = 1337;
+
+            // Accessing and printing the book's title
+            Console.WriteLine(book1.title);
+
+
 
             Console.ReadLine();
         }
