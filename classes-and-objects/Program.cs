@@ -20,6 +20,11 @@ namespace classes_and_objects
             book1.author = "Meta";
             book1.pages = 1337;
 
+            Book book2 = new Book();
+            book2.title = "The bubbly cauldron";
+            book2.author = "Jack Pickleson";
+            book2.pages = 69;
+
             // Accessing and printing the book's title
             Console.WriteLine(book1.title);
 
