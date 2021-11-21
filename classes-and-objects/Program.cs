@@ -33,6 +33,8 @@ namespace classes_and_objects
             // Creating the same code as above, but cleaner, by using constructors
             Book book1 = new Book("Miss", "The witch in the woods", "Meta", 1337);
             Book book2 = new Book("Mister", "The bubbly cauldron", "Jack Pickleson", 69);
+            // Proving that because we created a second constructor with no parameters, we can still make one, with no parameters, without any errors
+            Book book3 = new Book();
 
             // Update any of the values simply by doing things like book2.title = "Humbug"
             // Test that the classes/objects, the instances of Book, were created correctly
