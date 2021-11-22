@@ -13,7 +13,8 @@ namespace classes_and_objects
         public string title;
         public string author;
         public int pages;
-        public string demographic;
+        // Let's make the demographic attribute private. Only code inside of the Book class will be able to access it.
+        private string demographic;
 
         // Let's create book instances another way, with constructors
         // A method like this is a constructor, the method public Book()
@@ -26,9 +27,10 @@ namespace classes_and_objects
             title = aTitle;
             author = aAuthor;
             pages = aPages;
-            demographic = aDemographic;
+            // To make this private attribute more secure capitalize it so it is set through our setter in our Demographic method
+            Demographic = aDemographic;
 
-            // Every time a book is created, this code will be ran. Try running the main program to see it print for as many books are created above. When we call new Book() in the main program we're actually calling the constructor method. It is directly linked to this method.
+            // Every time a book is created, this code will be ran. Try running the main program to see it print the following name attribute for as many books are created above. When we call new Book() in the main program we're actually calling this constructor method, and this illustrates that by running the code at the end of the constructor method.
             Console.WriteLine(name);
         }
 
@@ -51,6 +53,22 @@ namespace classes_and_objects
             return false;
         }
 
-        // Getters and setters can be used to control access to the attributes in our classes. They can be used to make them more secure, for example.
+        // Getters and setters can be used to control access to the attributes in our classes. They can be used to make them more secure, for example. Let's say our books will be sorted only into 4 categories for their demographics: Kids, Young Adult, Adult, and All Ages. We can use getters and setters to enforce that this attribute is only one of these by closing off access to the demographic attribute.
+        // Making a property, which is a specil kind of method for defining getters and setters. We can use these to define rules for how certain attributes are set. This way, there won't be an invalid demographic value.
+        public string Demographic
+        {
+            // How to get the demographic attribute when it is private
+            get { return demographic; }
+            // Only allow the demographic value to be one of these four, then if it is, set it equal to the one passed through our method. If something else is tried to be set as the demographic value, set the value to unknown.
+            set {
+                if (value == "Adult" || value == "Young Adult" || value == "Kids" || value == "All Ages")
+                {
+                    demographic = value;
+                } else
+                {
+                    demographic = "Unknown";
+                }
+            }
+        }
     }
 }

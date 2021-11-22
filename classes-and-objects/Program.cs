@@ -38,11 +38,18 @@ namespace classes_and_objects
 
             // Update any of the values simply by doing things like book2.title = "Humbug"
             // Test that the classes/objects, the instances of Book, were created correctly
-            Console.WriteLine(book1.title, book2.title);
+            Console.WriteLine(book1.title + ", " + book2.title + ", " + book2);
 
             // Test our LongRead() method and see which book is long or short 
             Console.WriteLine(book1.LongRead());
             Console.WriteLine(book2.LongRead());
+
+            // The demographic attribute is private, and therefore if we typed something like Console.WriteLine(book2.demographic); here we would have a build error.
+            // Try to set an invalid attribute to test our security for the demographic. Notice we now have to use the capitalized version of the attribute, because outside of the class file itself, we must use our getter and setter methods, since it is private. This should return unknown, since we tried an invalid set.
+
+            Console.WriteLine(book2.Demographic);
+            book2.Demographic = "bingbong";
+            Console.WriteLine(book2.Demographic);
 
             Console.ReadLine();
         }
