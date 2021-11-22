@@ -31,8 +31,8 @@ namespace classes_and_objects
                 Console.WriteLine(book1.title); */
 
             // Creating the same code as above, but cleaner, by using constructors
-            Book book1 = new Book("Miss", "The witch in the woods", "Meta", 1337);
-            Book book2 = new Book("Mister", "The bubbly cauldron", "Jack Pickleson", 69);
+            Book book1 = new Book("Miss", "The witch in the woods", "Meta", 1337, "Young Adult");
+            Book book2 = new Book("Mister", "The bubbly cauldron", "Jack Pickleson", 69, "Adult");
             // Proving that because we created a second constructor with no parameters, we can still make one, with no parameters, without any errors
             Book book3 = new Book();
 
