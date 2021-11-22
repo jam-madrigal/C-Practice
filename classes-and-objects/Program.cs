@@ -40,6 +40,10 @@ namespace classes_and_objects
             // Test that the classes/objects, the instances of Book, were created correctly
             Console.WriteLine(book1.title, book2.title);
 
+            // Test our LongRead() method and see which book is long or short 
+            Console.WriteLine(book1.LongRead());
+            Console.WriteLine(book2.LongRead());
+
             Console.ReadLine();
         }
     }
