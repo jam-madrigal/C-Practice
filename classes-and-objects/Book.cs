@@ -38,7 +38,7 @@ namespace classes_and_objects
 
         // Let's make a method we can use in our Book class. Let's return a method that tells us if a book is longer than 100 pages and can be classified as a long read.
 
-        // Return true if the book is longer than 100 pages, false if not. Notice how we do not need to specify the parameters or the .pages attribute beyond calling it pages, as this is a Book method, it already knows it will be used for this class.
+        // Return true if the book is longer than 100 pages, false if not. Notice how we do not need to specify the parameters or the .pages attribute beyond calling it pages, as this is a Book method, it already knows it will be used for an object within this class. For example, by doing book1.LongRead(); it will use all of the information in the book1 object. book1.pages, etc.
         public bool LongRead()
         {
             // Access the pages attribute and return true if it is greater than or equal to 100, and false if lower than 100
