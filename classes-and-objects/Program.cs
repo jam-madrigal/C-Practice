@@ -30,11 +30,16 @@ namespace classes_and_objects
                 // Accessing and printing the book's title
                 Console.WriteLine(book1.title); */
 
-            // Creating the same code as above, but cleaner, by using constructors
+            // Creating the same code as above, but cleaner, by using constructors, and seeing the bookCount increase with our static attribute
             Book book1 = new Book("Miss", "The witch in the woods", "Meta", 1337, "Young Adult");
+            Console.WriteLine(Book.bookCount);
             Book book2 = new Book("Mister", "The bubbly cauldron", "Jack Pickleson", 69, "Adult");
+            Console.WriteLine(Book.bookCount);
+
             // Proving that because we created a second constructor with no parameters, we can still make one, with no parameters, without any errors
             Book book3 = new Book();
+            Console.WriteLine(Book.bookCount);
+
 
             // Update any of the values simply by doing things like book2.title = "Humbug"
             // Test that the classes/objects, the instances of Book, were created correctly
