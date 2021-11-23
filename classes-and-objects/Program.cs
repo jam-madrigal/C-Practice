@@ -58,6 +58,9 @@ namespace classes_and_objects
             book2.Demographic = "bingbong";
             Console.WriteLine(book2.Demographic);
 
+            // Testing our static method
+            Book.favoriteBook();
+
             Console.ReadLine();
         }
     }

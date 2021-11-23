@@ -20,6 +20,13 @@ namespace classes_and_objects
         
         public static int bookCount = 0;
 
+        // Static methods can also be created, and they are methods that exist within the class itself just like the static attributes. As such, we can call it without creating an instance of the class. 
+        // A simple static method that returns my favorite book
+        public static void favoriteBook()
+        {
+            Console.WriteLine("The witch in the woods by Meta");
+        }
+
         // Let's create book instances another way, with constructors
         // A method like this is a constructor, the method public Book()
         // We can give the constructor the parameters to give the book properties and data just like we did above. Now we can pass in a parameter in our new Book() method

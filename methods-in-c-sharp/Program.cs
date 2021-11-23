@@ -16,7 +16,7 @@ namespace methods_in_c_sharp
         }
 
         // Where we create new methods
-        // Use the keyword static (explanation to come later), then specify the "return type", this will be void which basically means this method will not return any information, a simpler kind of method, then we name the method. In C#, we generally use capital letters for the names.
+        // Use the keyword static (explanation to come later), then specify the "return type", this will be void which basically means this method will not return a value, a simpler kind of method, then we name the method. In C#, we generally use capital letters for the names.
 
         // For parameters, we specify the type of data and the name of the parameter, consecutive parameters are separated by commas
         static void SayHi(string name, int age)
