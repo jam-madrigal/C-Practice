@@ -39,7 +39,8 @@ namespace classes_and_objects
             // Proving that because we created a second constructor with no parameters, we can still make one, with no parameters, without any errors
             Book book3 = new Book();
             Console.WriteLine(Book.bookCount);
-
+            // Another way of seeing the book count, with our getter method
+            Console.WriteLine(book1.getBookCount());
 
             // Update any of the values simply by doing things like book2.title = "Humbug"
             // Test that the classes/objects, the instances of Book, were created correctly
@@ -49,6 +50,7 @@ namespace classes_and_objects
             Console.WriteLine(book1.LongRead());
             Console.WriteLine(book2.LongRead());
 
+            
             // The demographic attribute is private, and therefore if we typed something like Console.WriteLine(book2.demographic); here we would have a build error.
 
             // Try to set an invalid attribute to test our security for the demographic. Notice we now have to use the capitalized version of the attribute, because outside of the class file itself, we must use our getter and setter methods, since it is private. This should return unknown, since we tried an invalid set.

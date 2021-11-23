@@ -63,6 +63,12 @@ namespace classes_and_objects
 
         // Getters and setters can be used to control access to the attributes in our classes. They can be used to make them more secure, for example. Let's say our books will be sorted only into 4 categories for their demographics: Kids, Young Adult, Adult, and All Ages. We can use getters and setters to enforce that this attribute is only one of these by closing off access to the demographic attribute.
         // Making a property, which is a specil kind of method for defining getters and setters. We can use these to define rules for how certain attributes are set. This way, there won't be an invalid demographic value.
+
+        // You can also make a getter method to get a static attribute using an individual object. For example, now we can call book1.getBookCount(); if needed.
+        public int getBookCount()
+        {
+            return Book.bookCount;
+        }
         public string Demographic
         {
             // How to get the demographic attribute when it is private
